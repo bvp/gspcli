@@ -1,0 +1,64 @@
+# Account Active. 0 - No, 1 - Yes. Default value is 0
+# Number: 0, 1
+P271 = 1
+
+# Account Name
+P270 = CompanyName
+
+# SIP Server
+P47 = freepbx.company.local
+
+# SIP User ID
+P35 =
+ 
+# SIP Authenticate ID
+P36 =
+
+# SIP Authenticate Password
+P34 =
+
+# Name (Display Name, e.g., John Doe)
+P3 =
+
+# Account 2/General Settings
+# Account Active. 0 - No, 1 - Yes. Default is 0
+P401 = 0
+
+# Layer 2 QoS. 802.1Q/VLAN Tag (VLAN classification for RTP). Default is 0
+P51 = 73
+
+# Firmware Server Path
+P192 = 10.200.253.2/GStream/FW
+
+# Config Server Path
+P237 = 10.200.253.2/GStream/CFG
+
+# Web Access Mode. 0 - HTTPS, 1 - HTTP. Default is 1
+P1650 = 0
+
+# Disable SSH. 0 - No, 1 - Yes. Default is 0
+P276 = 1
+
+##  Maintenance/Language
+P1362 = ru
+
+# NTP Server
+P30 = ntp
+
+# Time Zone. Offset in minutes to GMT
+P64 = MSK-3
+
+# Time Display Format. 0 - 12 Hour, 1 - 24 Hour
+P122 = 1
+
+# Allow DHCP Option 2 to override Time Zone setting. 0 - No, 1 - Yes. Default is 1
+P143 = 0
+
+# Preferred Vocoder
+# 0 - PCMU, 2 - G.726-32, 4 - G.723.1, 8 - PCMA, 9 - G.722, 18 - G.729A/B, 98 - iLBC
+# choice 1. Default is 0
+P57 = 9
+# choice 2. Default is 8
+P58 = 0
+# choice 3. Default is 4
+P59 = 8

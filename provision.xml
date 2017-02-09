@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- BroadSoft XML Provisioning Configuration -->
+<gs_provision version="1">
+    <mac>{{ .Dev.Mac }}</mac>
+    <config version="1">
+    {{- with .Settings }}
+        {{- range . }}
+          {{- range $comment := .Comments }}
+        <!-- {{ $comment }} -->
+          {{- end }}
+        {{ if .ID }}<{{ .ID }}>{{ .Value }}</{{ .ID }}>{{ end }}
+        {{ end }}
+    {{- end }}
+    </config>
+</gs_provision>
